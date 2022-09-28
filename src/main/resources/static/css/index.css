@@ -1,0 +1,42 @@
+/* 
+    Created on : 27 sept 2022, 19:14:11
+    Author     : jorda
+*/
+
+.block {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 20px solid blue;
+    box-sizing: border-box;
+}
+.static {
+    position: static;
+    border: 3px solid red;
+    top: 400px;
+    left: 500px;
+}
+.relative {
+    position: relative;
+    border: 3px solid yellow;
+    top: 400px;
+    left: 500px;
+    width: 200px;
+    height: 200px;
+}
+.absolute {
+    position: absolute;
+    border: 3px solid greenyellow;
+    top: 200px;
+    left: 100px;
+    
+}
+
+.fixed {
+    position: fixed;
+    border: 3px solid purple;
+    top: 150px;
+    left: 100px;
+    
+}
